@@ -17,6 +17,7 @@ submitButton = submitButton.addEventListener("click", function(){
     // console.log(lifeSpan);
     var mathResult = obochoyJoggoMullo / lifeSpan;
     mathResult = parseFloat(mathResult);
+    mathResult = mathResult.toFixed(3);
     // console.log(typeof mathResult);
     // console.log(mathResult);
     result.innerHTML = mathResult;
